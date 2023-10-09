@@ -1,0 +1,64 @@
+body{
+    background-image: url(images/DarkBackround.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: White;
+    font-size: 80px;
+    padding-top: 10%;
+}
+.mission-statement{
+    display: flex;
+    justify-content: center;
+    padding-left: 2%;
+    padding-top: 1%;
+    color: white;
+    font-size: 33px;
+    text-indent: 35px;
+}
+.information{
+    display: flex;
+    justify-content: center;
+    padding-left: 2%;
+    padding-top: 1%;
+    color: white;
+    font-size: 33px;
+    text-indent: 35px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px
+}
+/*container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}*/
+
+
+
+
+/*.background{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.background::before{
+    content: '';
+    background-image: url(images/ShoeShelf2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 80%;
+}*/
