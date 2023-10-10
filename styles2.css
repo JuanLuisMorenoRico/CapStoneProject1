@@ -3,3 +3,37 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+    font-weight: bold;
+    color: white;
+    font-family: fantasy;
+}
+.carousel{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 36%;
+    height: 20%;
+    border: 25px ridge black;
+    border-radius: 0;
+}
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
+img[src="images/WhiteConverse.webp"]{
+    max-width: 320px;
+}
+.text-box{
+    color: white;
+}
+.text-box h2{
+    font-size: 42px;
+}
+.text-box p{
+    font-size: 16px;
+}
