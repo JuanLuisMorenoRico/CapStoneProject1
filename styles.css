@@ -9,7 +9,7 @@ h1{
     justify-content: center;
     color: White;
     font-size: 80px;
-    padding-top: 10%;
+    padding-top: 4%;
 }
 .mission-statement{
     display: flex;
@@ -41,7 +41,7 @@ ul{
 #FloatingSneakers{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 
