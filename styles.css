@@ -34,6 +34,17 @@ h1{
     justify-content: space-around;
     padding-top: 50px
 }
+ul{
+    display: flex;
+    color:white;
+}
+#FloatingSneakers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /*container{
     display: flex;
     flex-flow: row;
