@@ -15,12 +15,13 @@ body {
 }
 .shopping-list {
     width: 700px; /* Increase the width to make the shopping list container bigger */
-    height: 450px;
+    height: 550px;
     margin: 0 auto;
     background: white; /* Add background color or opacity for better readability */
     padding: 20px;
     border-radius: 10px;
-    margin-top: 14%;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .item {
@@ -50,4 +51,8 @@ body {
 
 .item-description span {
     display: inline-block;
+}
+#buttonslink{
+    display: flex;
+    justify-content: space-around;
 }
