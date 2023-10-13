@@ -1,47 +1,79 @@
-*{
+/* Reset default padding, margin, and font-family for all elements */
+* {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
 }
-    body{
-        background: url(images/BlurredBackround.jpg) no-repeat;
-        background-size: cover;
-        color: white;
-    }
-    .registration-form{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        padding-top: 7%;
-        padding-left: 2%;
-        color: white;
-    }
-    .registration-form h1{
-        font-size: 40px;
-        text-align: center;
-        text-transform: uppercase;
-        margin: 40px 0;
-    }
-    .registration-form p{
-        font-size: 20px;
-        margin: 15px 0;
-    }
-    .registration-form input{
-        font-size: 16px;
-        width: 100%;
-        padding: 15px 10px;
-        border: 0;
-        outline: none;
-        border-radius: 5px;
-    }
-    .registration-form button{
-        font-size: 18px;
-        font-weight: bold;
-        margin: 20px 0;
-        padding: 10px 15px;
-        width: 50%;
-        border-radius: 5px;
-        border: 0;
-    }
+
+/* Styling for the entire page */
+body {
+    background: url(images/BlurredBackround.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+/* Styling for the registration form */
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 7%;
+    padding-left: 2%;
+    color: white;
+}
+
+.registration-form h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.registration-form p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.registration-form input {
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.registration-form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+}
+
+/* Styling for the container that includes radio buttons */
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.container p {
+    font-size: 18px;
+    margin-bottom: 0px;
+    padding-left: 6%;
+}
+
+.container input[type="radio"] {
+    margin-right: 10px; /* Increase spacing between radio buttons */
+    margin-left: 5px;
+}
+
+.container label {
+    font-size: 16px;
+}
