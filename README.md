@@ -27,6 +27,15 @@ Check-out Page:
 
 ![Screenshot (139)](https://github.com/JuanLuisMorenoRico/CapStoneProject1/assets/146771962/1be007e6-ceb1-40d9-8a05-dd83ebfd8512)
 
+Log-in
+
+![Screenshot (140)](https://github.com/JuanLuisMorenoRico/CapStoneProject1/assets/146771962/1553a343-9a78-4a72-bd33-0f803ecaa089)
+
+
+Sign-up:
+
+![Screenshot (141)](https://github.com/JuanLuisMorenoRico/CapStoneProject1/assets/146771962/7dd15692-8483-41e5-8546-91771984cf6d)
+
 Credits:
 Bootstrap
 Youtube
