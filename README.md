@@ -12,6 +12,9 @@ Key Features:
 
 🛒 Checkout Page: Hassle-free shopping with a built-in shopping cart.
 
+![Screenshot (136)](https://github.com/JuanLuisMorenoRico/CapStoneProject1/assets/146771962/7a38b7df-df95-4345-85bb-e87b0677f322)
+
+
 Credits:
 Bootstrap
 Youtube
